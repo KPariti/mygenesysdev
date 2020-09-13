@@ -1,0 +1,37 @@
+<link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
+<script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script src="main.js"></script>
+<link rel="stylesheet" href="main.css">
+
+<div class="header">
+    <img src="logo (1).png">
+    <span></span>
+  </div>
+
+<body>
+<div class="wrapper fadeInDown">
+  <h2>Welcome to MiGenesys care portal</h2>
+  <div><label class="sumh2">If you are a member of health care organization, please sign in below </label></div>
+  <div id="formContent">
+   
+    <div style="padding-top:3%">
+      <h2 style="margin-left:-70%;;font-weight:100">Sign In</h2>
+    </div>
+
+    <!-- Login Form -->
+    <form>
+      <input type="text" id="txtEmail" class="fadeIn third lgtxt" name="txtEmail" placeholder="Please Enter your Email">
+      <span class="notexistalert" style="display:none">Email does not exist!</span><br>
+      <input type="button" id="btnLogin" class="fadeIn fourth" value="Log In">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <span class="pullleft">Account Locked?</span><br>
+      <a class="pullleft underlineHover" href="#">Click here to receive a new password?</a>
+    </div>
+
+  </div>
+</div>
+</body>
